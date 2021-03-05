@@ -1,0 +1,14 @@
+
+#footer{
+    background-color: black;
+    padding: 1.5rem;
+    line-height: 2;
+}
+#footer .navigation{
+    display: flex;
+    justify-content: center;
+}
+
+#footer .navigation li, .footer-icons a i{
+    margin-left: 1rem;
+}
