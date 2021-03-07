@@ -1,0 +1,42 @@
+@media(max-width: 768px){
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img img{
+        width: 40%;
+    }
+    .about-text{
+        padding: 0;
+        margin: 1rem 2rem auto 2rem;
+    }
+
+    .btn-about{
+        margin-bottom: 1rem;
+    }
+
+
+    .contact-content{
+        flex-wrap: wrap;
+    }
+
+    .contact-message{
+        flex-basis: 100%;
+        margin: 0 1rem;
+    }
+
+    .contact{
+        width: 18rem;
+        margin: 1rem 1rem;
+    }
+
+    .navigation{
+        flex-direction: column;
+    }
+    
+    .nav-img{
+        display: none;
+    }
+}
+
+
+

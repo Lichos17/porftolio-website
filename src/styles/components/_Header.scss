@@ -4,7 +4,7 @@
     position: relative;
 }
 
-.main-header *{
+.display-header *{
     z-index: 100;
 }
 
@@ -30,7 +30,6 @@
 }
 
 .main-header .header-content h1{
-    font-weight: 700;
     font-size: 5rem;
 }
 
@@ -42,14 +41,4 @@
 
 .header-icons i{
     padding-left: 1rem;
-}
-
-@media ( max-width: 768px ){
-    .navigation{
-        flex-direction: column;
-    }
-    
-    .nav-img{
-        display: none;
-    }
 }

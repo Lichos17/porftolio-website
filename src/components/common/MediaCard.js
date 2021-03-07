@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const MediaCard = ({ imgLink, imgTitle, cardTitle, description, github, pageLink, history}) => {
+export const MediaCard = ({ imgLink, imgTitle, cardTitle, description, github, pageLink}) => {
 
     const classes = useStyles();
 

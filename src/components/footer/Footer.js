@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { HashLink  } from 'react-router-hash-link';
 
 export const Footer = () => {
     return (
@@ -11,10 +9,10 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/lichosmx/"><i className="fab fa-linkedin"></i></a>
             </div>
             <ul className="navigation">
-                <li> <Link to="/">Home</Link></li>
-                <li> <HashLink to="#about">About</HashLink></li>
-                <li> <Link to="/projects">Projects</Link></li>
-                <li> <Link to="/contact">Contact</Link></li>
+                <li> <a href="/">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
             </ul>
         </section>
     )

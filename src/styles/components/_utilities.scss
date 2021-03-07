@@ -41,9 +41,15 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.m-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-
-
+.gradient-background{
+    background: rgb(227,179,75);
+    background: linear-gradient(90deg, rgba(227,179,75,1) 35%, rgba(2,0,36,1) 100%, rgba(2,0,36,1) 100%);    
+}
 .flex-column{
     display: flex;
     flex-direction: column;
@@ -59,7 +65,10 @@
 }
 
 .title{
-    margin-top: 2rem;
+    padding-top: 2rem;
     color: #0f0f0f;
     font-size: 2rem;
+}
+.text-bold{
+    font-weight: 700;
 }
