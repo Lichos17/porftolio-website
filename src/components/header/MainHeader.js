@@ -18,7 +18,7 @@ export const MainHeader = () => {
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <header className={ `main-header ${ !click && 'display-header'}` } style={{background: "url('https://res.cloudinary.com/dw8xidhnh/image/upload/v1614995167/portfolio/f9-min_jemk61.jpg') no-repeat center center / cover"}}>
+        <header className={ `main-header ${ !click && 'display-header'}` } style={{background: "url('https://res.cloudinary.com/dw8xidhnh/image/upload/v1628098005/portfolio/oia43tw8gt730tnspwuc.jpg') no-repeat center center / cover"}}>
             <div className="container main-content flex-column margin-auto">
                 { (isTabletOrMobile || ( isTabletOrMobile && isPortrait)) 
                  ? (   <ResponsiveNav 

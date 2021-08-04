@@ -14,7 +14,7 @@ export const AboutSection = () => {
                  <hr />
                 <div className="m-1 flex-around about-content">
                     <div className="about-img">
-                        <img src="https://res.cloudinary.com/dw8xidhnh/image/upload/v1614995164/portfolio/f10-min_hapoxt.jpg" alt="lichos" />
+                        <img src="https://res.cloudinary.com/dw8xidhnh/image/upload/v1628098054/portfolio/dhecxe3y66xditrorveo.jpg" alt="lichos" />
                     </div>
                     <div className="about-text flex-column">
                         <p> I am 21 years old. Computer Science student at Universidad Autonoma de Yucatán and self-taught web development student currently studying React.
